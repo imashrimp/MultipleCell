@@ -33,8 +33,9 @@ class TrendingTVCell: BaseTableViewCell {
         }
         
         posterImage.snp.makeConstraints { make in
-            make.leading.equalTo(typeLabel.snp.trailing).offset(8)
-            make.verticalEdges.equalToSuperview().offset(6)
+            make.leading.greaterThanOrEqualTo(typeLabel.snp.trailing).offset(8)
+            make.verticalEdges.equalToSuperview().inset(6)
+            make.centerX.equalToSuperview()
             make.width.equalTo(80)
         }
         

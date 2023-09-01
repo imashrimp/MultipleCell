@@ -24,6 +24,7 @@
 		17C138E92AA1DC0F00D318B0 /* Extension+Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C138E82AA1DC0F00D318B0 /* Extension+Identifier.swift */; };
 		17C138EB2AA1DCDE00D318B0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 17C138EA2AA1DCDE00D318B0 /* .gitignore */; };
 		17C138ED2AA1DCF500D318B0 /* APIkeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C138EC2AA1DCF500D318B0 /* APIkeys.swift */; };
+		17C138F02AA1DD8900D318B0 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C138EF2AA1DD8900D318B0 /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		17C138E82AA1DC0F00D318B0 /* Extension+Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Identifier.swift"; sourceTree = "<group>"; };
 		17C138EA2AA1DCDE00D318B0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		17C138EC2AA1DCF500D318B0 /* APIkeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIkeys.swift; sourceTree = "<group>"; };
+		17C138EF2AA1DD8900D318B0 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		17C138BB2AA1C4A100D318B0 /* MultipleCell */ = {
 			isa = PBXGroup;
 			children = (
+				17C138EE2AA1DD7100D318B0 /* APIManager */,
 				17C138DE2AA1C7CA00D318B0 /* BaseView */,
 				17C138D92AA1C78800D318B0 /* TableViewCell */,
 				17C138D82AA1C60F00D318B0 /* CustomView */,
@@ -90,7 +93,6 @@
 				17C138CA2AA1C4A200D318B0 /* Info.plist */,
 				17C138E82AA1DC0F00D318B0 /* Extension+Identifier.swift */,
 				17C138EA2AA1DCDE00D318B0 /* .gitignore */,
-				17C138EC2AA1DCF500D318B0 /* APIkeys.swift */,
 			);
 			path = MultipleCell;
 			sourceTree = "<group>";
@@ -137,6 +139,15 @@
 				17C138E42AA1D70300D318B0 /* BaseImageView.swift */,
 			);
 			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		17C138EE2AA1DD7100D318B0 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				17C138EC2AA1DCF500D318B0 /* APIkeys.swift */,
+				17C138EF2AA1DD8900D318B0 /* APIManager.swift */,
+			);
+			path = APIManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +233,7 @@
 				17C138C12AA1C4A100D318B0 /* ViewController.swift in Sources */,
 				17C138BD2AA1C4A100D318B0 /* AppDelegate.swift in Sources */,
 				17C138DB2AA1C7A900D318B0 /* TrendingMovieCell.swift in Sources */,
+				17C138F02AA1DD8900D318B0 /* APIManager.swift in Sources */,
 				17C138D22AA1C4FF00D318B0 /* TrendingModel.swift in Sources */,
 				17C138E32AA1D69400D318B0 /* BaseLabel.swift in Sources */,
 				17C138E52AA1D70300D318B0 /* BaseImageView.swift in Sources */,

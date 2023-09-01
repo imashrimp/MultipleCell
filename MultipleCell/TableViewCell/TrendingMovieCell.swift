@@ -33,7 +33,8 @@ class TrendingMovieCell: BaseTableViewCell {
         }
         
         mediaTypeLabel.snp.makeConstraints { make in
-            make.leading.top.equalTo(posterImageView.snp.trailing).offset(8)
+            make.top.equalToSuperview().offset(8)
+            make.leading.equalTo(posterImageView.snp.trailing).offset(8)
             make.trailing.greaterThanOrEqualToSuperview().inset(8)
         }
         
